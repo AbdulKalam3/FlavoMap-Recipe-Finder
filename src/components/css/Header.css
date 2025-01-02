@@ -5,67 +5,75 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: "PT Sans", serif;
-    height: 100vh;
-    
     background-image: url('../images/main.jpg');
-    height: 100vh;
     background-size: cover;
 }
 
-
 /* header */
-.header{
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.4);
 }
-.title{
-    display:flex;
-    justify-content: center;
-    padding: 20px;
-}
-.logo img{
-    width:50px;
-}
-.titlename{
-    flex-direction: column;
+
+/* Title container */
+.title {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo */
+.logo img {
+    width: 50px;
+}
+
+/* Title and tagline */
+.titlename {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     text-align: center;
     font-weight: 700;
     font-style: italic;
-    padding-left: 30px;
+    padding-left: 20px;
 }
+
+/* Title styling */
 .titlename h1 {
-    text-align: center;
     font-size: 40px;
-    color:white;
-}
-.tagline {
-    font-size: 18px; 
     color: white;
-    font-style: normal; 
-    font-weight: 400;
-    padding-left: 50px;
 }
 
+/* Tagline styling */
+.tagline {
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    padding-top: 10px;
+}
 
+/* Mobile responsiveness */
 @media (max-width: 768px) {
     .header {
-        width:100%;
         background-color: rgba(0, 0, 0, 0.4);
     }
+
     .logo img {
         width: 80px;
     }
-    
+
     .titlename h1 {
         font-size: 30px;
     }
 
     .tagline {
         font-size: 16px;
-        padding-left: 20px;
+        padding-left: 0;
     }
 }

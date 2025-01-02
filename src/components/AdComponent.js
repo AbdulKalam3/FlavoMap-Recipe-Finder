@@ -2,22 +2,20 @@ import React, { useEffect } from 'react';
 
 function AdComponent() {
   useEffect(() => {
-    // Ensure the adsbygoogle script is loaded only once
-    if (window.adsbygoogle) {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    if (window.adsbygoogle && window.adsbygoogle.push) {
+      window.adsbygoogle.push({});
     }
-  }, []); // Empty dependency array to ensure this effect runs only once
+  }, []);
 
   return (
     <div>
-      <ins class="adsbygoogle"
-     style={{ display: 'block' }} 
-     data-ad-client="ca-pub-7360554667394701" 
-     data-ad-slot="1234567890"               
-     data-ad-format="auto"></ins>
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+      <ins
+        className="adsbygoogle"
+        style={{ display: 'block', width: '100%', height: '250px' }}
+        data-ad-client="ca-pub-7360554667394701"
+        data-ad-slot="6198673929"
+        data-ad-format="auto"
+      ></ins>
     </div>
   );
 }
