@@ -11,7 +11,7 @@ function AdComponent() {
   return (
     <div>
       <ins class="adsbygoogle"
-     style="display:block"
+     style={{ display: 'block' }} 
      data-ad-client="ca-pub-7360554667394701" 
      data-ad-slot="1234567890"               
      data-ad-format="auto"></ins>
