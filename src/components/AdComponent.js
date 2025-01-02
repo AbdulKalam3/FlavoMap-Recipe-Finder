@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import './css/AdComponent.css';
 
 function AdComponent() {
   useEffect(() => {
