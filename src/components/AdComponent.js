@@ -2,9 +2,11 @@ import React, { useEffect } from 'react';
 
 function AdComponent() {
   useEffect(() => {
-    // Initialize adsbygoogle to load the ad
-    (window.adsbygoogle = window.adsbygoogle || []).push({});
-  }, []);
+    // Ensure the adsbygoogle script is loaded only once
+    if (window.adsbygoogle) {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    }
+  }, []); // Empty dependency array to ensure this effect runs only once
 
   return (
     <div>
