@@ -14,20 +14,15 @@
     border-radius: 4px;
   }
   
-  /* Example for smaller screens */
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .ad-container {
-      padding: 8px; /* Adjust padding */
-      margin: 10px 0; /* Adjust margins */
+      padding: 8px;
+      margin: 10px 0;
     }
   
     .adsbygoogle {
-      width: 100%; /* Make the ad element take full width */
-      height: auto; /* Maintain aspect ratio */
-    }
-  
-    .header, .footer, .content {
-      padding: 0 10px; /* Add some padding to content */
+      width: 100%;
+      height: auto;
     }
   }
   
