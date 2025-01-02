@@ -1,7 +1,7 @@
 .content {
   display: flex;
   justify-content: center;
-  height: 60vh;
+  height: 100%;
   align-items: center;
   width: 100%;
 }
@@ -14,8 +14,7 @@
 }
 
 .content .col {
-  display: block;
-  flex-direction: column;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -52,7 +51,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 0vh;
+  height: 100%;
   padding-bottom: 200px;
 }
 
