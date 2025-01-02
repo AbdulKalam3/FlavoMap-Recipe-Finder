@@ -15,7 +15,7 @@
   }
   
   /* Example for smaller screens */
-@media screen and (max-width: 980x) {
+@media screen and (max-width: 768px) {
     .ad-container {
       padding: 8px; /* Adjust padding */
       margin: 10px 0; /* Adjust margins */
