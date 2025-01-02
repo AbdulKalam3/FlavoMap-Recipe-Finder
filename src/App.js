@@ -12,7 +12,10 @@ function App() {
     </div>
     <div className="content">
       <Main />
-      <AdComponent />
+      
+    </div>
+    <div>
+    <AdComponent />
     </div>
     <div className="footer">
       <Footer />
