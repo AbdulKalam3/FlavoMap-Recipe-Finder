@@ -1,14 +1,15 @@
-FlavoMap - Recipe Finder
+
 
 FlavoMap is a dynamic, user-friendly web application designed to help users find recipes based on the ingredients they have available. Built with React, this application allows users to search for recipes, view detailed instructions, and explore various culinary possibilities. The app's clean and intuitive interface ensures a seamless experience while navigating through hundreds of recipes.
 
-Key Features:
+Technologies Used:
 
+React: JavaScript library for building user interfaces.
 
-Recipe Search: Find recipes by ingredients or meal types.
+HTML5: Structure of the application.
 
-Detailed Recipe View: Get step-by-step instructions and nutritional information.
+CSS3: Styling the application for modern, responsive design.
 
-Responsive Design: Optimized for mobile, tablet, and desktop devices.
+JavaScript: Core scripting language for app functionality.
 
-User-Friendly Interface: Easy to navigate with a simple search functionality.
+Axios/Fetch: For making HTTP requests to APIs .
