@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function AdComponent() {
+  useEffect(() => {
+    // Initialize adsbygoogle to load the ad
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
+  }, []);
+
   return (
     <div>
       <ins className="adsbygoogle"
