@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "PT Sans", serif;
+    height: 100vh;
+    background-color: #f8f8f8;
+}

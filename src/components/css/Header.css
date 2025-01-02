@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "PT Sans", serif;
+    height: 100vh;
+    
+    background-image: url('../images/main.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+
+/* header */
+.header{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.title{
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+}
+.logo img{
+    width:50px;
+}
+.titlename{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+    padding-left: 30px;
+}
+.titlename h1 {
+    text-align: center;
+    font-size: 40px;
+    color:white;
+}
+.tagline {
+    font-size: 18px; 
+    color: white;
+    font-style: normal; 
+    font-weight: 400;
+    padding-left: 50px;
+}
+
+
+@media (max-width:980px){
+    .logo img{
+        width:100px
+    }
+    .titlename h1{
+        font-size: 60px;
+    }
+    .tagline{
+        font-size: 30px;
+    }
+}
