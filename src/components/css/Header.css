@@ -65,15 +65,15 @@ body {
     }
 
     .logo img {
-        width: 80px;
+        width: 40px;
     }
 
     .titlename h1 {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .tagline {
-        font-size: 16px;
+        font-size: 12px;
         padding-left: 0;
     }
 }
