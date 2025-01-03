@@ -1,5 +1,7 @@
 
-  
+  footer{
+    height: 100%;
+  }
   /* Footer Section */
   .footer {
       position: fixed; 
