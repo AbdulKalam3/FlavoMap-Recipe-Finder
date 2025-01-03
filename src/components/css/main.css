@@ -18,6 +18,13 @@
   align-items: center;
   justify-content: center;
 }
+/* Google AdSense Ad Section */
+.ads-container {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px 0;
+  background-color: white;
+}
 
 .content input, .content button {
   border-radius: 4px;

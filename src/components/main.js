@@ -93,13 +93,14 @@ function Main() {
             placeholder="Search by recipe name"
           />
           <button onClick={() => searchRecipes('name')}>Find Recipes</button>
-</div>
-          <div className="col">
+        </div>
+
+        <div className="col">
           <input
             type="text"
             value={ingredients}
             onChange={(e) => setIngredients(e.target.value)}
-            placeholder="Search by ingredients(comma separated)"
+            placeholder="Search by ingredients (comma separated)"
           />
           <button onClick={() => searchRecipes('ingredients')}>Find Recipes</button>
         </div>
@@ -130,6 +131,16 @@ function Main() {
             </ul>
           )}
         </div>
+      </div>
+
+      {/* Google AdSense Ad */}
+      <div className="ads-container">
+        <ins className="adsbygoogle"
+          style={{ display: 'block', textAlign: 'center' }}
+          data-ad-client="ca-pub-7360554667394701"
+          data-ad-slot="1234567890"
+          data-ad-format="auto">
+        </ins>
       </div>
     </div>
   );
