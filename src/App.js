@@ -9,10 +9,10 @@ function App() {
     <>
     <div className="header">
       <Header />
+      <AdComponent />
     </div>
     <div className="content">
       <Main />
-      <AdComponent />
     </div>
     <div className="footer">
       <Footer />
