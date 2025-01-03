@@ -1,5 +1,7 @@
 
-  
+.ads-container {
+    background-color: transparent;
+}
   /* Footer Section */
   .footer {
       position: fixed; 
