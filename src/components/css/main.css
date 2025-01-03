@@ -137,7 +137,6 @@
   }
   .content .col {
     display: flex;
-    flex-direction: column;
     gap: 10px;
     width: 100%;
   }
@@ -151,7 +150,7 @@
 
   .content button {
     padding: 15px;
-    font-size: 20px;
+    font-size: 16px;
     width: 70%;
     margin-bottom: 40px;
   }
