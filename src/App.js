@@ -1,4 +1,5 @@
 import './App.css';
+import AdComponent from './components/AdComponent.js';
 import Footer from './components/footer.js';
 import Header from './components/header.js';
 import Main from './components/main.js';
@@ -13,6 +14,7 @@ function App() {
       <Main />
     </div>
     <div className="footer">
+      <AdComponent />
       <Footer />
     </div>
     </>
