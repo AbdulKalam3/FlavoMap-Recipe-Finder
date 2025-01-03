@@ -8,7 +8,7 @@ function Header() {
         if (window.adsbygoogle) {
             (window.adsbygoogle = window.adsbygoogle || []).push({});
         }
-    }, []);  // This ensures ads are initialized only once
+    }, []);  // Empty array means this runs only once after the component is mounted
 
     return (
         <header className="header">
