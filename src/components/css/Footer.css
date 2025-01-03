@@ -3,7 +3,7 @@
     background-color: transparent;
 }
   /* Footer Section */
-  .footer {
+  .footer1 {
       position: fixed; 
       bottom: 0; 
       left: 0; 
@@ -14,17 +14,17 @@
       text-align: center; 
   }
   
-  .footer p {
+  .footer1 p {
       margin: 0; 
       font-size: 16px; 
   }
   
   @media(max-width: 768px) {
-      .footer {
+      .footer1 {
           padding: 15px;
       }
   
-      .footer p {
+      .footer1 p {
           font-size: 18px;
           padding: 0 10px;
       }

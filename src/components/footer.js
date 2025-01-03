@@ -13,7 +13,7 @@ function Footer(){
                 </ins>
             </div>
         <footer>
-            <div className='footer'>
+            <div className='footer1'>
                 <p>
                     © 2025 Deliciously coded by Shaik Abdul Kalam – Bringing recipes to your fingertips!
                 </p>
