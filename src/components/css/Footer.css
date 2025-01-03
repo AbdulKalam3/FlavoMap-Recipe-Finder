@@ -1,4 +1,11 @@
-footer {
+/* Google AdSense Ad Section */
+.ads-container {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: white;
+  }
+  .footer {
     position: fixed; 
     bottom: 0; 
     left: 0; 
@@ -8,7 +15,7 @@ footer {
     padding: 10px;
     text-align: center; 
 }
-footer p {
+.footer p {
     margin: 0; 
     font-size: 16px; 
 }
