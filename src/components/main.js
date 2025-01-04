@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './css/main.css';
-import { Helmet } from 'react-helmet';
+
 
 function Main() {
   const [recipes, setRecipes] = useState([]);
@@ -87,8 +87,6 @@ function Main() {
     <div className="content">
       <div className="row">
         <div className="col">
-          <Helmet>
-          <meta name="description" content="Find the best recipes based on ingredients with FlavoMap Recipe Finder." />
           <input
             type="text"
             value={query}
@@ -96,7 +94,6 @@ function Main() {
             placeholder="Search by recipe name"
           />
           <button onClick={() => searchRecipes('name')}>Find Recipes</button>
-          </Helmet>
         </div>
 
         <div className="col">
