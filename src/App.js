@@ -1,8 +1,8 @@
 import './App.css';
-import React from 'react';
 import Footer from './components/footer.js';
 import Header from './components/header.js';
 import Main from './components/main.js';
+import React from 'react';
 
 function App() {
   return (
