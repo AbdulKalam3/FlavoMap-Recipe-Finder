@@ -1,4 +1,7 @@
 import './css/Footer.css';
+import { Helmet } from 'react-helmet';
+import React from 'react';
+
 
 function Footer(){
     return(
@@ -14,9 +17,12 @@ function Footer(){
             </div>
         <footer>
             <div className='footer1'>
+                <Helmet>
                 <p>
                     © 2025 Deliciously coded by Shaik Abdul Kalam – Bringing recipes to your fingertips!
                 </p>
+                <meta name="description" content="Find the best recipes based on ingredients with FlavoMap Recipe Finder." />
+                </Helmet>
             </div>
         </footer>
         </section>

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './css/Header.css';
 import logo from './images/logo.png';
-
+import { Helmet } from 'react-helmet';
 
 function Header() {
     useEffect(() => {
@@ -19,7 +19,10 @@ function Header() {
                         <img src={logo} alt="Logo" />
                     </div>
                     <div className="col titlename">
+                        <helmet>
                         <h1>FlavoMap</h1>
+                        <meta name="description" content="Find the best recipes based on ingredients with FlavoMap Recipe Finder." />
+                        </helmet>
                         <p className="tagline">Recipe Finder</p>
                     </div>
                 </div>
