@@ -4,8 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#000000" />
+  <meta name="application-name" content="FlavoMap" />
   <meta name="description" content="FlavoMap helps you find delicious recipes tailored to your preferences. Discover new dishes and organize your cooking adventures easily." />
-  <meta name="keywords" content="FlavoMap, Flavo Map, flavo map, Flavour map, recipe finder, recipes, cooking, healthy recipes" />
+  <meta name="keywords" content="FlavoMap, Flavo Map, flavo map, Flavour map, recipe finder, recipes, cooking, healthy recipes, food blog, recipe sharing" />
   <meta name="author" content="Abdul Kalam" />
   
   <!-- Open Graph Metadata -->
@@ -16,12 +17,16 @@
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="FlavoMap" />
+  
+  <!-- Manifest File -->
+  <link rel="manifest" href="manifest.json" />
 
   <!-- Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebSite",
+    "@type": "WebApplication",
     "name": "FlavoMap",
     "url": "https://flavomap.netlify.app",
     "description": "FlavoMap is a recipe finder to explore delicious recipes tailored to your preferences.",
@@ -29,7 +34,10 @@
       "@type": "Person",
       "name": "Abdul Kalam"
     },
-    "image": "logo-icon.png"
+    "image": "logo-icon.png",
+    "applicationCategory": "Lifestyle",
+    "operatingSystem": "All",
+    "browserRequirements": "None"
   }
   </script>
 
