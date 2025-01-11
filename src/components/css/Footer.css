@@ -2,9 +2,7 @@
 body{
     overflow-x: hidden;
 }
-.ads-container {
-    background-color: transparent;
-}
+
   /* Footer Section */
   .footer1 {
       position: fixed; 
