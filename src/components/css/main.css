@@ -113,7 +113,11 @@
   animation: dots 1.5s steps(3, end) infinite;
 } 
 
-
+.adsbygoogle {
+  display: block;
+  width: 100%; /* or a fixed width */
+  height: auto; /* Adjust for responsive ads */
+}
 @keyframes dots {
   0% {
     content: '';
