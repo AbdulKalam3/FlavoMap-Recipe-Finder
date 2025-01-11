@@ -131,20 +131,8 @@ function Main() {
               ))}
             </ul>
           )}
-        </div><div className='row'>
-        {/* Google AdSense Ad */}
-        <div className="ads-container">
-                <ins className="adsbygoogle"
-                    style={{ display: 'block', textAlign: 'center' }}
-                    data-ad-client="ca-pub-7360554667394701"
-                    data-ad-slot="1234567890"
-                    data-ad-format="auto">
-                </ins>
-            </div>
+        </div>
       </div>
-      </div>
-
-      
     </div>
   );
 }
