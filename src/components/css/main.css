@@ -111,10 +111,7 @@
 .loading-animation:after {
   content: '...';
   animation: dots 1.5s steps(3, end) infinite;
-}
-.ads-container {
-  background-color: transparent;
-}
+} 
 
 
 @keyframes dots {

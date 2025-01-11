@@ -131,10 +131,7 @@ function Main() {
               ))}
             </ul>
           )}
-        </div>
-      </div>
-
-      <div className='row'>
+        </div><div className='row'>
         {/* Google AdSense Ad */}
         <div className="ads-container">
                 <ins className="adsbygoogle"
@@ -145,6 +142,9 @@ function Main() {
                 </ins>
             </div>
       </div>
+      </div>
+
+      
     </div>
   );
 }
